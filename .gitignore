@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Generated datasets and experiment outputs
+data/source_units/*.jsonl
+data/source_units/*.parquet
+runs/*/artifacts/
+runs/*/metrics.json
+runs/*/logs/
+
+# Editor / OS files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
